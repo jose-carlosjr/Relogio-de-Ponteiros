@@ -25,7 +25,7 @@ main {
   height: 600px;
   background-color: #f0f8ff;
   border-radius: 600px;
-  border: 15px groove #333;
+  border: 15px solid #333;
   position: relative;
 }
 
@@ -93,6 +93,36 @@ main {
   height: 240px;
   width: 5px;
   background-color: #a52a2a;
-  transform: translate(0, -50%) rotate(30deg);
-  transform-origin: bottom;
+  border-radius: 5px;
+  transform: translate(0, -50%);
+  /* O PONTO ZERO DO ELEMENTO DEIXA DE SER O CENTRO E PASSA A SER O BOTTOM, A PARTE DE BAIXO. PARA SER MAIS PRECISO COLOCAMOS UM center PARA INDICAR QUE O PONTO ZERO NO CENTRO DA PARTE DE BAIXO */
+  transform-origin: bottom center;
+}
+
+.minute-hand {
+  position: absolute;
+  height: 200px;
+  width: 8px;
+  background-color: #333;
+  border-radius: 5px;
+  transform: translate(0, -50%);
+  transform-origin: bottom center;
+}
+
+.hour-hand {
+  position: absolute;
+  height: 150px;
+  width: 12px;
+  background-color: #333;
+  border-radius: 23px;
+  transform: translate(0, -50%);
+  transform-origin: bottom center;
+}
+
+.center {
+  width: 20px;
+  height: 20px;
+  background-color: #a52a2a;
+  border-radius: 50%;
+  position: absolute;
 }/*# sourceMappingURL=style.css.map */
