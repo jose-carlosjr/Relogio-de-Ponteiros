@@ -16,18 +16,10 @@ getTime()
 
 // 1000 EQUIVALE A 1 SEGUNDO
 setInterval(() => {
-    const {seconds} = getTime() // DESTRUCTURING
+    const {seconds, minutes, hours} = getTime() // DESTRUCTURING
     secondHand.style.transform = `translate(0, -50%) rotate(${seconds * 6}deg)`
-}, 1000)
-
-setInterval(() => {
-    const {minutes} = getTime()
     minuteHand.style.transform = `translate(0, -50%) rotate(${minutes * 6}deg)`
-}, 1000)
-
-setInterval(() => {
-    const {hours, minutes} = getTime()
-    hourHand.style.transform = `translate(0, -50%) rotate(${(hours * minutes) / 30}deg)`
+    hourHand.style.transform = `translate(0, -50%) rotate(${hours * 30}deg)`
 }, 1000)
 
 /*
