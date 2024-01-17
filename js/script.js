@@ -24,3 +24,14 @@ setInterval(() => {
     const {minutes} = getTime()
     minuteHand.style.transform = `translate(0, -50%) rotate(${minutes * 6}deg)`
 }, 1000)
+
+setInterval(() => {
+    const {hours, minutes} = getTime()
+    hourHand.style.transform = `translate(0, -50%) rotate(${(hours * minutes) / 30}deg)`
+}, 1000)
+
+/*
+    3600 segundos
+    30 Graus
+    PERCORRER 1 GRAU A CADA 120 SEGUNDOS
+*/
