@@ -22,5 +22,5 @@ setInterval(() => {
 
 setInterval(() => {
     const {minutes} = getTime()
-    minuteHand.style.transform = `translate(0, -50%), rotate${minutes}deg`
-}, 1000 * 60)
+    minuteHand.style.transform = `translate(0, -50%) rotate(${minutes * 6}deg)`
+}, 1000)
