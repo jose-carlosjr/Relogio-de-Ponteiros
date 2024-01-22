@@ -21,12 +21,52 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 600px;
-  min-height: 600px;
+  min-width: 650px;
+  min-height: 650px;
   background-color: #f0f8ff;
   border-radius: 600px;
   border: 15px solid #333;
   position: relative;
+}
+
+.trace1 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(6deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace2 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(12deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace3 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(18deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace4 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(24deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
 }
 
 .number {
@@ -37,55 +77,126 @@ main {
   font-size: 1.2rem;
   font-weight: 600;
   text-align: center;
-  padding: 5px;
 }
 
 .number-1 {
   transform: rotate(30deg);
 }
+.number-1::before {
+  display: block;
+  content: "l";
+  font-weight: bold;
+  font-size: 30px;
+}
 
 .number-2 {
   transform: rotate(60deg);
+}
+.number-2::before {
+  display: block;
+  content: "l";
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .number-3 {
   transform: rotate(90deg);
 }
+.number-3::before {
+  display: block;
+  content: "l";
+  font-weight: bold;
+  font-size: 30px;
+}
 
 .number-4 {
   transform: rotate(120deg);
+}
+.number-4::before {
+  display: block;
+  content: "l";
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .number-5 {
   transform: rotate(150deg);
 }
+.number-5::before {
+  display: block;
+  content: "l";
+  font-weight: bold;
+  font-size: 30px;
+}
 
 .number-6 {
   transform: rotate(180deg);
+}
+.number-6::before {
+  display: block;
+  content: "l";
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .number-7 {
   transform: rotate(210deg);
 }
+.number-7::before {
+  display: block;
+  content: "l";
+  font-weight: bold;
+  font-size: 30px;
+}
 
 .number-8 {
   transform: rotate(240deg);
+}
+.number-8::before {
+  display: block;
+  content: "l";
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .number-9 {
   transform: rotate(270deg);
 }
+.number-9::before {
+  display: block;
+  content: "l";
+  font-weight: bold;
+  font-size: 30px;
+}
 
 .number-10 {
   transform: rotate(300deg);
+}
+.number-10::before {
+  display: block;
+  content: "l";
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .number-11 {
   transform: rotate(330deg);
 }
+.number-11::before {
+  display: block;
+  content: "l";
+  font-weight: bold;
+  font-size: 30px;
+}
 
 .number-12 {
   transform: rotate(360deg);
+}
+.number-12::before {
+  display: block;
+  content: "l";
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .second-hand {
