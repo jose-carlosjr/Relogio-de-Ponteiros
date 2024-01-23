@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/* ESTILIZAÇÃO DOS TRAÇOS ENTRE OS NÚMEROS DO RELÓGIO */
 * {
   margin: 0;
   padding: 0;
@@ -436,4 +438,5 @@ main {
   background-color: #a52a2a;
   border-radius: 50%;
   position: absolute;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.922);
 }/*# sourceMappingURL=style.css.map */
