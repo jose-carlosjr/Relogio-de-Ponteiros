@@ -1,5 +1,8 @@
 @charset "UTF-8";
+/* ARQUIVOS SASS */
 /* ESTILIZAÇÃO DOS TRAÇOS ENTRE OS NÚMEROS DO RELÓGIO */
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -29,6 +32,17 @@ main {
   border-radius: 600px;
   border: 15px solid #333;
   position: relative;
+  box-shadow: inset 0px 0px 50px rgba(0, 0, 0, 0.767);
+}
+
+.mark {
+  position: absolute;
+  top: 25%;
+  font-family: "Expletus Sans", sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.597);
 }
 
 .trace1 {
@@ -271,12 +285,252 @@ main {
   padding: 5px;
 }
 
+.trace25 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(186deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace26 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(192deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace27 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(198deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace28 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(204deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace29 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(216deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace30 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(222deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace31 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(228deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace32 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(234deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace33 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(246deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace34 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(252deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace35 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(258deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace36 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(264deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace37 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(276deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace38 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(282deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace39 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(288deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace40 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(294deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace41 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(306deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace42 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(312deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace43 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(318deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace44 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(324deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace45 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(336deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace46 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(342deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace47 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(348deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace48 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(354deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
 .number {
   position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
 }

@@ -1,4 +1,9 @@
+/* ARQUIVOS SASS */
 @import "./mixins";
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
 
 * {
     margin: 0;
@@ -29,6 +34,17 @@ main {
     border-radius: 600px;
     border: 15px solid #333;
     position: relative;
+    box-shadow: inset 0px 0px 50px rgba(0, 0, 0, 0.767);
+}
+
+.mark {
+    position: absolute;
+    top: 25%;
+    font-family: 'Expletus Sans', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.597);
 }
 
 .trace1 {
@@ -127,12 +143,108 @@ main {
     @include clockTrace(rotate(174deg))
 }
 
+.trace25 {
+    @include clockTrace(rotate(186deg))
+}
+
+.trace26 {
+    @include clockTrace(rotate(192deg))
+}
+
+.trace27 {
+    @include clockTrace(rotate(198deg))
+}
+
+.trace28 {
+    @include clockTrace(rotate(204deg))
+}
+
+.trace29 {
+    @include clockTrace(rotate(216deg))
+}
+
+.trace30 {
+    @include clockTrace(rotate(222deg))
+}
+
+.trace31 {
+    @include clockTrace(rotate(228deg))
+}
+
+.trace32 {
+    @include clockTrace(rotate(234deg))
+}
+
+.trace33 {
+    @include clockTrace(rotate(246deg))
+}
+
+.trace34 {
+    @include clockTrace(rotate(252deg))
+}
+
+.trace35 {
+    @include clockTrace(rotate(258deg))
+}
+
+.trace36 {
+    @include clockTrace(rotate(264deg))
+}
+
+.trace37 {
+    @include clockTrace(rotate(276deg))
+}
+
+.trace38 {
+    @include clockTrace(rotate(282deg))
+}
+
+.trace39 {
+    @include clockTrace(rotate(288deg))
+}
+
+.trace40 {
+    @include clockTrace(rotate(294deg))
+}
+
+.trace41 {
+    @include clockTrace(rotate(306deg))
+}
+
+.trace42 {
+    @include clockTrace(rotate(312deg))
+}
+
+.trace43 {
+    @include clockTrace(rotate(318deg))
+}
+
+.trace44 {
+    @include clockTrace(rotate(324deg))
+}
+
+.trace45 {
+    @include clockTrace(rotate(336deg))
+}
+
+.trace46 {
+    @include clockTrace(rotate(342deg))
+}
+
+.trace47 {
+    @include clockTrace(rotate(348deg))
+}
+
+.trace48 {
+    @include clockTrace(rotate(354deg))
+}
+
 .number {
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
 }
