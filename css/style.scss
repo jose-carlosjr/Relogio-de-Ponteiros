@@ -1,3 +1,5 @@
+@import "./mixins";
+
 * {
     margin: 0;
     padding: 0;
@@ -21,12 +23,108 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 600px;
-    min-height: 600px;
+    min-width: 650px;
+    min-height: 650px;
     background-color: #f0f8ff;
     border-radius: 600px;
     border: 15px solid #333;
     position: relative;
+}
+
+.trace1 {
+    @include clockTrace(rotate(6deg))
+}
+
+.trace2 {
+    @include clockTrace(rotate(12deg))
+}
+
+.trace3 {
+    @include clockTrace(rotate(18deg))
+}
+
+.trace4 {
+    @include clockTrace(rotate(24deg))
+}
+
+.trace5 {
+    @include clockTrace(rotate(36deg))
+}
+
+.trace6 {
+    @include clockTrace(rotate(42deg))
+}
+
+.trace7 {
+    @include clockTrace(rotate(48deg))
+}
+
+.trace8 {
+    @include clockTrace(rotate(54deg))
+}
+
+.trace9 {
+    @include clockTrace(rotate(66deg))
+}
+
+.trace10 {
+    @include clockTrace(rotate(72deg))
+}
+
+.trace11 {
+    @include clockTrace(rotate(78deg))
+}
+
+.trace12 {
+    @include clockTrace(rotate(84deg))
+}
+
+.trace13 {
+    @include clockTrace(rotate(96deg))
+}
+
+.trace14 {
+    @include clockTrace(rotate(102deg))
+}
+
+.trace15 {
+    @include clockTrace(rotate(108deg))
+}
+
+.trace16 {
+    @include clockTrace(rotate(114deg))
+}
+
+.trace17 {
+    @include clockTrace(rotate(126deg))
+}
+
+.trace18 {
+    @include clockTrace(rotate(132deg))
+}
+
+.trace19 {
+    @include clockTrace(rotate(138deg))
+}
+
+.trace20 {
+    @include clockTrace(rotate(144deg))
+}
+
+.trace21 {
+    @include clockTrace(rotate(156deg))
+}
+
+.trace22 {
+    @include clockTrace(rotate(162deg))
+}
+
+.trace23 {
+    @include clockTrace(rotate(168deg))
+}
+
+.trace24 {
+    @include clockTrace(rotate(174deg))
 }
 
 .number {
@@ -37,55 +135,138 @@ main {
     font-size: 1.2rem;
     font-weight: 600;
     text-align: center;
-    padding: 5px;
 }
 
 .number-1 {
     transform: rotate(30deg);
+    
+    &::before {
+        display: block;
+        content: 'l';
+        font-weight: bold;
+        font-size: 30px;
+    }
 }
 
 .number-2 {
     transform: rotate(60deg);
+
+    &::before {
+        display: block;
+        content: 'l';
+        font-weight: bold;
+        font-size: 30px;
+    }
 }
 
 .number-3 {
     transform: rotate(90deg);
+
+    &::before {
+        display: block;
+        content: 'l';
+        font-weight: bold;
+        font-size: 30px;
+    }
 }
 
 .number-4 {
     transform: rotate(120deg);
+
+    &::before {
+        display: block;
+        content: 'l';
+        font-weight: bold;
+        font-size: 30px;
+    }
 }
 
 .number-5 {
     transform: rotate(150deg);
+
+    &::before {
+        display: block;
+        content: 'l';
+        font-weight: bold;
+        font-size: 30px;
+    }
 }
 
 .number-6 {
     transform: rotate(180deg);
+
+    &::before {
+        display: block;
+        content: 'l';
+        font-weight: bold;
+        font-size: 30px;
+    }
 }
 
 .number-7 {
     transform: rotate(210deg);
+
+    &::before {
+        display: block;
+        content: 'l';
+        font-weight: bold;
+        font-size: 30px;
+    }
 }
 
 .number-8 {
     transform: rotate(240deg);
+
+    &::before {
+        display: block;
+        content: 'l';
+        font-weight: bold;
+        font-size: 30px;
+    }
 }
 
 .number-9 {
     transform: rotate(270deg);
+
+    &::before {
+        display: block;
+        content: 'l';
+        font-weight: bold;
+        font-size: 30px;
+    }
 }
 
 .number-10 {
     transform: rotate(300deg);
+
+    &::before {
+        display: block;
+        content: 'l';
+        font-weight: bold;
+        font-size: 30px;
+    }
 }
 
 .number-11 {
     transform: rotate(330deg);
+
+    &::before {
+        display: block;
+        content: 'l';
+        font-weight: bold;
+        font-size: 30px;
+    }
 }
 
 .number-12 {
     transform: rotate(360deg);
+
+    &::before {
+        display: block;
+        content: 'l';
+        font-weight: bold;
+        font-size: 30px;
+    }
 }
 
 .second-hand {
@@ -125,4 +306,5 @@ main {
     background-color: #a52a2a;
     border-radius: 50%;
     position: absolute;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.922);
 }
