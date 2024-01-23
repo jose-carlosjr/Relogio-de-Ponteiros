@@ -69,6 +69,206 @@ main {
   padding: 5px;
 }
 
+.trace5 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(36deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace6 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(42deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace7 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(48deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace8 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(54deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace9 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(66deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace10 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(72deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace11 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(78deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace12 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(84deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace13 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(96deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace14 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(102deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace15 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(108deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace16 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(114deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace17 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(126deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace18 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(132deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace19 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(138deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace20 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(144deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace21 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(156deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace22 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(162deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace23 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(168deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
+.trace24 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transform: rotate(174deg);
+  font-size: 16px;
+  font-family: Impact;
+  padding: 5px;
+}
+
 .number {
   position: absolute;
   top: 0;

@@ -1,3 +1,5 @@
+@import "./mixins";
+
 * {
     margin: 0;
     padding: 0;
@@ -30,43 +32,99 @@ main {
 }
 
 .trace1 {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    transform: rotate(6deg);
-    font-size: 16px;
-    font-family: Impact;
-    padding: 5px;
+    @include clockTrace(rotate(6deg))
 }
 
 .trace2 {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    transform: rotate(12deg);
-    font-size: 16px;
-    font-family: Impact;
-    padding: 5px;
+    @include clockTrace(rotate(12deg))
 }
 
 .trace3 {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    transform: rotate(18deg);
-    font-size: 16px;
-    font-family: Impact;
-    padding: 5px;
+    @include clockTrace(rotate(18deg))
 }
 
 .trace4 {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    transform: rotate(24deg);
-    font-size: 16px;
-    font-family: Impact;
-    padding: 5px;
+    @include clockTrace(rotate(24deg))
+}
+
+.trace5 {
+    @include clockTrace(rotate(36deg))
+}
+
+.trace6 {
+    @include clockTrace(rotate(42deg))
+}
+
+.trace7 {
+    @include clockTrace(rotate(48deg))
+}
+
+.trace8 {
+    @include clockTrace(rotate(54deg))
+}
+
+.trace9 {
+    @include clockTrace(rotate(66deg))
+}
+
+.trace10 {
+    @include clockTrace(rotate(72deg))
+}
+
+.trace11 {
+    @include clockTrace(rotate(78deg))
+}
+
+.trace12 {
+    @include clockTrace(rotate(84deg))
+}
+
+.trace13 {
+    @include clockTrace(rotate(96deg))
+}
+
+.trace14 {
+    @include clockTrace(rotate(102deg))
+}
+
+.trace15 {
+    @include clockTrace(rotate(108deg))
+}
+
+.trace16 {
+    @include clockTrace(rotate(114deg))
+}
+
+.trace17 {
+    @include clockTrace(rotate(126deg))
+}
+
+.trace18 {
+    @include clockTrace(rotate(132deg))
+}
+
+.trace19 {
+    @include clockTrace(rotate(138deg))
+}
+
+.trace20 {
+    @include clockTrace(rotate(144deg))
+}
+
+.trace21 {
+    @include clockTrace(rotate(156deg))
+}
+
+.trace22 {
+    @include clockTrace(rotate(162deg))
+}
+
+.trace23 {
+    @include clockTrace(rotate(168deg))
+}
+
+.trace24 {
+    @include clockTrace(rotate(174deg))
 }
 
 .number {

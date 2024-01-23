@@ -1,0 +1,9 @@
+@mixin clockTrace($degree) {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transform: $degree;
+    font-size: 16px;
+    font-family: Impact;
+    padding: 5px;
+}
